@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffe0;
+  align-items: center;
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgb(255, 196, 2);
+  color: brown;
+  font-weight: bold;
+  border: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div {
+  border-radius: 10px;
+  background-color: #ffffe0;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.card-div {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.card-img {
+  background-size: cover;
+  max-width: 100%;
+}
+
+h3 {
+  color: brown;
+}
+h4 {
+  color: brown;
+}
+
+h1 {
+  color: brown;
+}
+
+.last-div {
+  border-radius: 6px;
+  background-color: #ffffe0;
+}
+
+.last-div h2 {
+  color: brown;
+}
+
+.last-div p {
+  color: brown;
+}
