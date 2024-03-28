@@ -2,15 +2,26 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #ffffe0;
-  height: 80px;
+
+  align-items: center;
 }
 
-button {
+.header-button {
   border-radius: 10px;
   background-color: rgb(255, 196, 2);
   color: brown;
   font-weight: bold;
   border: none;
+  height: 50px;
+}
+
+.central-button {
+  border-radius: 10px;
+  background-color: rgb(255, 196, 2);
+  color: brown;
+  font-weight: bold;
+  border: none;
+  height: 100px;
 }
 
 main {
@@ -39,6 +50,14 @@ main div {
   border-top-right-radius: 30px;
 }
 
+.card-button {
+  border-radius: 10px;
+  background-color: rgb(255, 196, 2);
+  color: brown;
+  font-weight: bold;
+  border: none;
+}
+
 h3 {
   color: brown;
 }
@@ -53,6 +72,9 @@ h1 {
 .last-div {
   border-radius: 6px;
   background-color: #ffffe0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .last-div h2 {
