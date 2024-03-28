@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #ffffe0;
-  align-items: center;
+  height: 80px;
 }
 
 button {
@@ -16,12 +16,13 @@ button {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 main div {
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #ffffe0;
-  width: 50%;
+  width: 47%;
   box-sizing: border-box;
 }
 
@@ -33,6 +34,9 @@ main div {
 .card-img {
   background-size: cover;
   max-width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 h3 {
